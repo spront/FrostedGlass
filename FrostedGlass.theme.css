@@ -73,14 +73,31 @@
 	--button-padding: 0 16px;
 	--button-action-color: #000;
 	--button-radius: 16px; /*	-	*/
+	.reaction-3vwAF2, .reaction-102jx9 {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: var(--message-radius);
+  border: none;
+		.wrapper-30-Nkg:not(.groupStart-3Mlgv1), .wrapper-30-Nkg.compact-2Nkcau {
+    margin-top: 0;
+			
+	.repliedMessage-3Z6XBG {
+  margin-right: 10px;
+	.repliedMessage-3Z6XBG:before {
+  transform: translateY(0px);
+	.repliedMessage-3Z6XBG .replyAvatar-sHd2sU,
+.repliedMessage-3Z6XBG .replyBadge-LMm_Ic,
+.repliedMessage-3Z6XBG .executedCommandAvatar-3oOnb1 {
+  margin-left: 0px;
+	.embedFull-1HGV2S,
+[class*=theme-] .invite-3uuHYQ,
+[class*=theme-] .wrapperAudio-1Bzv_Z,
+.wrapper-1HIH0j,
+.attachment-1PZZB2,
+[class*=theme-] .tile-2mmK5T,
+[class*=theme-] .tile-2mmK5T:hover {
+    background-color:rgba(39, 39, 39, 0.4);
+    border-radius: 6px;
 
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777; /*	-	*/
-
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
 	--font-primary: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
   --font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
   /*
