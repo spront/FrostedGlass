@@ -74,30 +74,60 @@
 	--button-action-color: #000;
 	--button-radius: 16px; /*	-	*/
 	.reaction-3vwAF2, .reaction-102jx9 {
-  background-color: rgba(0,0,0,0.2);
-  border-radius: var(--message-radius);
-  border: none;
-		.wrapper-30-Nkg:not(.groupStart-3Mlgv1), .wrapper-30-Nkg.compact-2Nkcau {
-    margin-top: 0;
-			
-	.repliedMessage-3Z6XBG {
-  margin-right: 10px;
-	.repliedMessage-3Z6XBG:before {
-  transform: translateY(0px);
-	.repliedMessage-3Z6XBG .replyAvatar-sHd2sU,
-.repliedMessage-3Z6XBG .replyBadge-LMm_Ic,
-.repliedMessage-3Z6XBG .executedCommandAvatar-3oOnb1 {
-  margin-left: 0px;
-	.embedFull-1HGV2S,
-[class*=theme-] .invite-3uuHYQ,
-[class*=theme-] .wrapperAudio-1Bzv_Z,
-.wrapper-1HIH0j,
-.attachment-1PZZB2,
-[class*=theme-] .tile-2mmK5T,
-[class*=theme-] .tile-2mmK5T:hover {
-    background-color:rgba(39, 39, 39, 0.4);
-    border-radius: 6px;
+--message-color: rgba(0,0,0,0.4);
+  --message-color-hover: rgba(0,0,0,0.55);
+  --message-radius: var(--app-radius);
+  --message-padding-top: 8px;
+  --message-padding-side: 8px;
+  --mention-hue: var(--accent-hue);
+  --mention-saturation: var(--accent-saturation);
+  --mention-lightness: var(--accent-lightness);
+  --mention-hsl: var(--mention-hue),calc(var(--mention-saturation) * var(--saturation-factor)),var(--mention-lightness);
+  --mention-opacity: 1;
+  --reply-hue: 226;
+  --reply-saturation: 77.4%;
+  --reply-lightness: 61.8%;
+  --reply-hsl: var(--reply-hue),calc(var(--reply-saturation) * var(--saturation-factor)),var(--reply-lightness);
+  --reply-opacity: 1;
 
+
+/*
+ *
+ *  TITLE BAR
+ *
+ */
+.titleBar-1it3bQ {
+  height: 24px;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE {
+  top: var(--app-margin);
+  left: var(--app-margin);
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+  width: 72px;
+  border-top-left-radius: var(--app-radius);
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e .macButton-2M5W_9 {
+  cursor: pointer;
+}
+
+.wordmarkWindows-2dq6rw {
+  color: #fff;
+}
+
+.winButton-3UMjdg {
+  height: 100%;
+  top: 0;
+  color: #fff;
+}
+
+.platform-osx .wrapper-1_HaEi {
+  margin-top: 0;
+  padding-top: 35px;
+}
+.platform-osx .tree-3agP2X {
+  margin-top: 32px;
+}
 	--font-primary: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
   --font-display: "SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif !important;
   /*
