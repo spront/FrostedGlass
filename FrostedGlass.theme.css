@@ -90,45 +90,6 @@
   --reply-hsl: var(--reply-hue),calc(var(--reply-saturation) * var(--saturation-factor)),var(--reply-lightness);
   --reply-opacity: 1;
 
-
-/*
- *
- *  TITLE BAR
- *
- */
-.titleBar-1it3bQ {
-  height: 24px;
-}
-.titleBar-1it3bQ.typeMacOS-3V4xXE {
-  top: var(--app-margin);
-  left: var(--app-margin);
-}
-.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
-  width: 72px;
-  border-top-left-radius: var(--app-radius);
-}
-.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e .macButton-2M5W_9 {
-  cursor: pointer;
-}
-
-.wordmarkWindows-2dq6rw {
-  color: #fff;
-}
-
-.winButton-3UMjdg {
-  height: 100%;
-  top: 0;
-  color: #fff;
-}
-
-.platform-osx .wrapper-1_HaEi {
-  margin-top: 0;
-  padding-top: 35px;
-}
-.platform-osx .tree-3agP2X {
-  margin-top: 32px;
-}
-
 /*
  *
  *  FORUM
