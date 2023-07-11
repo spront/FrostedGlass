@@ -11,8 +11,7 @@
 
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 
-/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
-@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
 :root {
   /*
    * Background image variables
